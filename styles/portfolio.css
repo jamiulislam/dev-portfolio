@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    font-family: Open Sans, sans-serif;
+}
+
+.primary-color {
+    color: rgb(232, 125, 49);
+}
+
+.btn-primary {
+    background: rgb(232, 125, 49);
+    height: 64px;
+    border-radius: 5px;
+    color: aliceblue;
+    border: 0;
+    font-size: 20px;
+    padding: 18px 36px;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images//developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 180px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    margin-left: 50px;
+    list-style: none;
+
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 180px;
+
+}
+
+.banner-hello {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    width: 177px;
+    height: 61px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    width: 498px;
+    height: 116px;
+}
+
+.title-description {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 585px;
+    margin-bottom: 20px;
+}
+
+/* About section */
+
+.about {
+    max-width: 1130px;
+    margin: 130px 230px 0px 230px;
+
+    border-radius: 10px;
+    background: #FFF8F3;
+
+    text-align: center;
+    padding: 131px 156px;
+}
+
+.about-title {
+
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+
+
+}
+
+.about-description {
+    text-align: center;
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+
+    font-weight: 400;
+}
+
+.info {
+    display: flex;
+    margin-top: 20px;
+
+
+}
+
+.about-info {
+    margin-right: 50px;
+}
+
+.info-title {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+
+.info-description {
+    color: #474747;
+    font-weight: 700;
+
+
+}
+
+
+/* what i do  */
